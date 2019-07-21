@@ -10,12 +10,10 @@
     "attach": "start-storybook --preview-url=http://localhost:1337/iframe.html"
   },
   "devDependencies": {
+    "@storybook/addon-info": "^5.2.0-beta.5",
     "@storybook/react": "^5.2.0-beta.5",
     "parcel-bundler": "^1.12.3",
     "react": "*",
     "react-dom": "^16.8.4"
-  },
-  "dependencies": {
-    "@storybook/addon-info": "^5.1.9"
   }
 }
