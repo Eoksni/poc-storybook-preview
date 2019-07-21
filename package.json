@@ -1,0 +1,21 @@
+{
+  "name": "poc-storybook-preview",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "https://github.com/Eoksni/poc-storybook-preview",
+  "author": "Dmitry Mazurok <mazurok@outlook.com>",
+  "scripts": {
+    "preview-that-works": "parcel ./src/storybook-that-works.html --port 1337",
+    "preview-with-info": "parcel ./src/storybook-with-info.html --port 1337",
+    "attach": "start-storybook --preview-url=http://localhost:1337/iframe.html"
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.2.0-beta.5",
+    "parcel-bundler": "^1.12.3",
+    "react": "*",
+    "react-dom": "^16.8.4"
+  },
+  "dependencies": {
+    "@storybook/addon-info": "^5.1.9"
+  }
+}
